@@ -1,0 +1,13 @@
+{
+  "policyName": "RCH-MFA-Baseline",
+  "appliesTo": "All workforce users",
+  "staffMethods": ["authenticator_push_number_matching"],
+  "adminMethods": ["fido2_security_key"],
+  "blockLegacyAuthentication": true,
+  "sessionHours": { "staff": 12, "adminPortals": 1 },
+  "breakGlassAccounts": {
+    "count": 2,
+    "excludedFromMfa": true,
+    "reviewEveryUseWithinHours": 24
+  }
+}

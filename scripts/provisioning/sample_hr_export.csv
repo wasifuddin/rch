@@ -1,0 +1,5 @@
+employee_id,name,role,status
+E001,Staff A,Nurse,active
+E002,Staff B,Doctor,terminated
+E003,Staff C,Receptionist,active
+E004,Staff D,Nurse Manager,active
